@@ -1,0 +1,65 @@
+# ──────────────────────────────────────────────────────────
+#  .gitignore — ForexBot AI
+# ──────────────────────────────────────────────────────────
+
+# ── Streamlit Secrets (NEVER commit API keys) ──
+.streamlit/secrets.toml
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.production
+
+# ── Distribution / Build ──
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# ── Jupyter Notebooks ──
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE & Editors ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs & Temp ──
+*.log
+*.tmp
+*.temp
+logs/
+
+# ── Data & Cache ──
+*.pkl
+*.pickle
+*.csv
+*.parquet
+.cache/
+__streamlit_cache__/
+
+# ── OS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+ehthumbs.db

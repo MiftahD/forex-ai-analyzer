@@ -1,0 +1,22 @@
+# ──────────────────────────────────────────────────────────
+#  ForexBot AI — Python Dependencies
+#  Install: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────
+
+# Core UI Framework
+streamlit>=1.32.0
+
+# Google Gemini AI SDK (FREE API) — official unified SDK
+google-genai>=1.0.0
+
+# HTTP requests (live exchange rates)
+requests>=2.31.0
+
+# Data manipulation
+pandas>=2.0.0
+
+# Interactive charts
+plotly>=5.18.0
+
+# Yahoo Finance market data (OHLCV)
+yfinance>=0.2.40
