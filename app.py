@@ -1,11 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║          ForexBot AI — Intelligent Forex Analyzer            ║
-║         Powered by Google Gemini + Real-time Market Data     ║
-║                   Built with Streamlit                       ║
-╚══════════════════════════════════════════════════════════════╝
-"""
-
 import streamlit as st
 from google import genai
 from google.genai import types as genai_types
@@ -931,7 +923,7 @@ def main():
             st.warning("Masukkan API key untuk fitur AI", icon="🔑")
             st.caption("🆓 Gratis di [aistudio.google.com](https://aistudio.google.com/app/apikey)")
         else:
-            st.success("API key terkonfigurasi ✅", icon="")
+            st.success("API key terkonfigurasi ✅", icon="✅")
 
         st.divider()
 
